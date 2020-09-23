@@ -1,0 +1,494 @@
+/* 
+Create By : Prince Patel
+Company : NorthFoxGroup
+Developers Team : NF Web Developers
+Twitter Profile : @NorthFoxGroup
+Coder Twitter Profile : @Princu09 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #2b323f;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.6rem;
+    line-height: 4rem;
+    font-weight: 800;
+}
+
+.btn-white {
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    color: #fff;
+    font-weight: 600;
+    text-transform: lowercase;
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn-white:hover {
+    background-color: #fff;
+    color: darkorange;
+    border: 2px solid #fff;
+}
+
+
+/* Section title */
+
+.section-title {
+    position: relative;
+}
+
+h2.section-title-heading {
+    color: #000;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.section-title::after {
+    content: '';
+    border-radius: 50px;
+    position: absolute;
+    border-bottom: 4px solid darkorange;
+    width: 5%;
+    top: 80px;
+}
+
+.section-title:hover::after {
+    width: 12%;
+    transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+}
+
+
+/* ##### NAvigation HERE ######### */
+
+.navbar {
+    padding-top: 1.rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: darkorange;
+}
+
+
+/* 
+.navbar.active {
+    background-color: darkorange;
+    color: darkorange;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+ */
+
+
+/* ########### Hero ############# */
+
+#hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    position: relative;
+}
+
+#hero::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 18%;
+    transform: skewY(-3deg);
+    transform-origin: bottom right;
+    bottom: -10px;
+    right: 0;
+    left: 0;
+}
+
+.main-hero-content h1 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.11rem;
+}
+
+.main-hero-content p {
+    color: #999;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+}
+
+.image-box img {
+    position: absolute;
+    height: 25rem;
+    right: 0;
+}
+
+
+/* About */
+
+#about i {
+    color: darkorange;
+    padding: 10px 0;
+}
+
+#about h3 {
+    padding: 10px 0;
+    color: #999;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#about p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+#about {
+    position: relative;
+    padding-bottom: 8rem;
+}
+
+#about::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 18%;
+    transform: skewY(-3deg);
+    transform-origin: bottom right;
+    bottom: -10px;
+    right: 0;
+    left: 0;
+}
+
+
+/* features */
+
+#features {
+    padding-bottom: 6rem;
+    margin-top: 3rem;
+}
+
+#features .feature-block {
+    text-align: center;
+}
+
+#features .feature-block h3 {
+    color: #999;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#features .feature-block h3 i {
+    color: darkorange;
+}
+
+#features .features-block p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+
+/* Downlod Buttons */
+
+#download {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20rem;
+    padding-top: 20rem;
+    position: relative;
+}
+
+#download::before {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 30%;
+    transform: skewY(-3deg);
+    transform-origin: top right;
+    top: -6rem;
+    right: 0;
+    left: 0;
+}
+
+#download::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 18%;
+    transform: skewY(-3deg);
+    transform-origin: bottom right;
+    bottom: -6px;
+    right: 0;
+    left: 0;
+}
+
+#download .download-title h2 {
+    padding-top: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+#download .download-title p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    margin-top: 2.5rem;
+}
+
+#download .download-title .download-btns {
+    margin-top: 4rem;
+}
+
+#download .download-title .download-btns a {
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    margin-right: 1rem;
+}
+
+#download .download-title .download-btns a:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #fff;
+    color: darkorange;
+    text-decoration: none;
+}
+
+
+/* Pricing */
+
+#pricing {
+    padding-bottom: 7rem;
+    position: relative;
+}
+
+#pricing .section-title {
+    margin-bottom: 5rem;
+}
+
+#pricing .pricing-table {
+    border-radius: .5rem;
+    background-color: #fff;
+    box-shadow: -1px 0px 12px 4px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: -1px 0px 12px 4px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -1px 0px 12px 4px rgba(0, 0, 0, 0.24);
+    -o-box-shadow: -1px 0px 12px 4px rgba(0, 0, 0, 0.24);
+    margin-right: 2rem;
+    width: calc(60%/3);
+}
+
+#pricing .pricing-table .table-header h4 i {
+    color: darkorange;
+}
+
+#pricing .pricing-table .table-header h4 {
+    color: #999;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#pricing .pricing-table .table-content {
+    margin: 2rem;
+}
+
+#pricing .pricing-table .table-content ul li {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+#pricing .pricing-table .table-footer {
+    margin-bottom: 5rem;
+}
+
+#pricing .pricing-table .table-footer a {
+    background: darkorange;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pricing .pricing-table .table-footer a:hover {
+    text-decoration: none;
+    background: #fff;
+    color: darkorange;
+    border: 2px solid darkorange;
+    transition: all 0.5s ease-in-out;
+}
+
+#pricing .table-header {
+    margin: 0;
+    width: 100%;
+}
+
+#pricing .pricing-table .table-header {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#pricing .pricing-table:nth-child(2) .table-header i {
+    position: absolute;
+    top: -1.5rem;
+    left: -1.5rem;
+    font-size: 3rem;
+    transform: rotate(-40deg);
+}
+
+
+/* Contact */
+
+#contact {
+    background-color: #f0f1f3;
+    padding-bottom: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+#contact::before {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 30%;
+    transform: skewY(-3deg);
+    transform-origin: top right;
+    top: -6rem;
+    right: 0;
+    left: 0;
+}
+
+#contact .section-title {
+    margin-top: 7rem;
+}
+
+.btn-contact {
+    background: darkorange;
+    padding: 0.5rem 2.2rem;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2rem;
+    border: none;
+}
+
+.btn-contact:hover {
+    background: #fff;
+    color: darkorange;
+    border: 2px solid darkorange;
+}
+
+#contact .contact-details ul li {
+    padding-bottom: 0.8rem;
+}
+
+#contact .contact-details ul li i {
+    color: darkorange;
+}
+
+#footer {
+    background-color: #2b323f;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+#footer::before {
+    content: '';
+    position: absolute;
+    background-color: #2b323f;
+    width: 100%;
+    height: 50%;
+    transform: skewY(-3deg);
+    transform-origin: top right;
+    top: -5.5rem;
+    right: 0;
+    left: 0;
+}
+
+#footer .footer-logo a {
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#footer .social-icons {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+#footer .social-icons i {
+    margin-right: 1rem;
+}
+
+#footer .social-icons i:hover {
+    color: #fff;
+}
+
+#footer .social-icons a {
+    nav-right: 10px;
+    color: darkorange;
+}
+
+.copyright p {
+    margin-top: 1rem;
+    color: #fff;
+    font-size: .9rem;
+}
+
+.social-icons .fa-facebook {
+    color: rgb(66, 103, 178);
+}
+
+.social-icons .fa-instagram {
+    color: rgb(225, 48, 108);
+}
+
+.social-icons .fa-twitter {
+    color: rgb(29, 161, 242);
+}
+
+.social-icons .fa-youtube {
+    color: rgb(255, 0, 0);
+}
+
+.social-icons .fa-telegram {
+    color: rgb(0, 136, 204);
+}

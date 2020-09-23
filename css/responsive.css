@@ -1,0 +1,109 @@
+/* 
+Create By : Prince Patel
+Company : NorthFoxGroup
+Developers Team : NF Web Developers
+Twitter Profile : @NorthFoxGroup
+Coder Twitter Profile : @Princu09 
+*/
+
+@media(max-width:992px) {
+    .navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-collapse {
+        margin-top: 5px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 1);
+        padding-left: 1rem;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: darkorange;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #000;
+    }
+}
+
+@media(max-width:768px) {
+    .image-box {
+        display: none;
+    }
+    .hero-buttons {
+        margin-bottom: 3rem;
+    }
+    #features .device img {
+        margin-bottom: 2rem;
+    }
+    #contact .address {
+        margin-top: 2rem;
+    }
+    #pricing .pricing-table {
+        width: calc(90%/1);
+        margin-top: 2rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #contact .section-title {
+        margin-top: 10rem;
+    }
+    #footer::before {
+        height: 20%;
+        top: -3.5rem;
+    }
+    #features-img {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #about::after {
+        content: '';
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        height: 18%;
+        transform: skewY(-3deg);
+        transform-origin: bottom right;
+        bottom: -20px;
+        right: 0;
+        left: 0;
+    }
+}
+
+@media(max-width:420px) {
+    .hero-buttons {
+        padding-bottom: 5rem;
+    }
+    #about::after {
+        content: '';
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        height: 10%;
+        transform: skewY(-3deg);
+        transform-origin: bottom right;
+        bottom: -20px;
+        right: 0;
+        left: 0;
+    }
+}
+
+@media(max-width:350px) {
+    .hero-buttons {
+        padding-bottom: 5rem;
+    }
+}
+
+@media(max-width:1198px) {
+    .image-box img {
+        height: 35rem;
+    }
+}
+
+@media(max-width:991px) {
+    .image-box img {
+        height: 25rem;
+        bottom: 0;
+    }
+    .hero-buttons {
+        margin-bottom: 2rem;
+    }
+}
